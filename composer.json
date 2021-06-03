@@ -1,0 +1,8 @@
+{
+    "name": "offline/oc-oldbackend-plugin",
+    "type": "october-plugin",
+    "description": "October V1 backend skin for October V2",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
