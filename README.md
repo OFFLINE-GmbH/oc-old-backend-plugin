@@ -1,6 +1,6 @@
 # Old Backend Plugin for October CMS
 
-This plugin restores the October V1 backend for October V2 installations.
+This plugin restores the October V1 backend skin for October V2 installations.
 
 It enables you to upgrade a project to the latest version of October CMS
 without introducing a major visual change for the end-user.
