@@ -23,11 +23,11 @@ It does not revert the following components:
 
 ## Installation
 
-To install the plugin, simply require it via Composer. Your backend skin will be
+You can install the plugin via composer. Your backend skin will be
 updated without any further configuration.
 
 ```
 composer require offline/oc-oldbackend-plugin
 ```
 
-To revert your skin back to the original October V2 skin, simply disable or remove this plugin.
+To revert your skin back to the original October V2 skin, disable or remove this plugin.
