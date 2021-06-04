@@ -1392,3 +1392,110 @@ div.control-simplelist.is-selectable-box.menu-mode-selector .menu-mode-box.menu-
     max-width: none
 }
 
+
+/** Login screen */
+html body.outer {
+    background: #fff
+}
+
+body.outer .layout > .layout-row > .layout-cell {
+    vertical-align: top
+}
+
+body.outer .layout > .layout-row > .layout-cell.form-cell {
+    width: 350px;
+    padding: 40px;
+    border-right: 1px solid #ecf0f1
+}
+
+body.outer .layout > .layout-row > .layout-cell.theme-cell {
+    background-color: #fef6eb;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden
+}
+
+body.outer .layout > .layout-row > .layout-cell.theme-cell img {
+    display: inline-block;
+    margin: 0 auto
+}
+
+body.outer .layout > .layout-row > .layout-cell h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+body.outer .layout > .layout-row > .layout-cell h1 img {
+    max-width: 180px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 6px
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container {
+    margin: 0 auto
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container p {
+    color: #2c3e4f
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container h2 {
+    font-size: 22px;
+    font-family: serif;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    color: #2c3e4f;
+    text-align: center
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container h2:empty {
+    padding: 0
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container h2:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 60px;
+    margin: 30px auto 20px;
+    background: #536061
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container .forgot-password {
+    margin-top: 8px
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container .forgot-password a {
+    color: #536061;
+    text-decoration: underline
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form input.form-control {
+    margin-bottom: 20px
+}
+
+body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form + .pull-right.forgot-password {
+    margin-top: -47px;
+    position: relative
+}
+
+body.outer.setup .layout > .layout-row > .layout-cell.form-cell {
+    width: 500px
+}
+
+@media (max-width: 480px) {
+    body.outer .layout > .layout-row > .layout-cell.form-cell {
+        width: 100% !important
+    }
+
+    body.outer .layout > .layout-row > .layout-cell.form-theme {
+        display: none
+    }
+}
